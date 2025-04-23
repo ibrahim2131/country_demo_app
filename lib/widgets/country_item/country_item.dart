@@ -16,7 +16,6 @@ class CountryItem extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10), // Rounded corners
         ),
-        color: Colors.white, // Card background color
         child: ListTile(
           contentPadding: EdgeInsets.all(16.0), // Padding inside the ListTile
           title: Text(
@@ -24,14 +23,13 @@ class CountryItem extends StatelessWidget {
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
-              color: Colors.black, // Primary text color
             ),
           ),
           subtitle: Text(
             'Capital: ${country.capital}', // Additional information
-            style: TextStyle(
+           /* style: TextStyle(
               color: Colors.grey[600], // Secondary text color
-            ),
+            ),*/
           ),
           leading: ClipOval(
             child: Image.network(

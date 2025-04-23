@@ -11,10 +11,8 @@ class CountryDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(country.commonName),
-        backgroundColor: Colors.teal,
       ),
       body: Container(
-        color: Colors.grey[100], // Light background color
         padding: const EdgeInsets.all(16.0),
         child: SingleChildScrollView(
           child: Column(

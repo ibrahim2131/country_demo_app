@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import '../models/country_model.dart';
-import '../services/api_service.dart';
+import '../../models/country_model.dart';
+import '../../services/api_service.dart';
 
 class CountryController extends GetxController {
   final ApiService apiService = ApiService();
